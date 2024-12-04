@@ -1,0 +1,451 @@
+/* sample.css */
+
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #a5d8d8;
+    color: #1c1b23;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Header Styling */
+header {
+    background-color: rgb(72, 156, 199);
+    padding: 20px 0;
+    text-align: center;
+    margin: auto;
+    padding: 2px;
+    
+}
+
+header h2 {
+    color: #A5D8D8;
+    font-size: 2rem;
+    margin: 5px auto;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+header nav ul li {
+    list-style: none;
+    width:20%;
+}
+
+header nav ul li a {
+    font-size: 1.2rem;
+    color: black;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    border-radius: 5px;;
+}
+
+header nav ul li a:hover {
+    background-color: #4F56DB;
+    border-radius: 4px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #151523;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Utility Classes */
+.left-aligned {
+    text-align: left;
+}
+
+#welcome {
+    background-color: rgb(72, 156, 199);
+    margin: 20px auto;
+}
+
+
+#welcome h2 {
+    text-align: center;
+    margin: 95px auto;
+    font-size: 2rem;
+    color: #A5D8D8;
+    padding: 20px 0px 0px 0px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+#welcome p {
+    text-align: left;
+    margin: 50px auto;
+    font-size: 1.2rem;
+    color: #333;
+    padding: 0px 0px 40px 0px;
+    width: 72%;
+    border-radius: 5px;
+}
+
+
+#quiz-button {
+    width:20%;
+    padding: 10px 20px;
+    background-image: linear-gradient(#303046, #151523);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: #151523 0px 0px 10px 0px;
+}
+
+#quiz-button:hover {
+    background-image: linear-gradient(#33afaf, #4F56DB);
+}
+
+#startButton {
+    padding: 20px 20px;
+    background-color: #151523;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 50px auto;
+    display: flex;
+}
+
+#startButton:hover {
+    background-color: #4F56DB;
+    border: 1px solid #333
+}
+
+
+.contact-info {
+    background-color: #b1e3e3;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.contact-info p {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.contact-info h2 {
+    margin: 0;
+    padding: 10px;
+    background-color:  rgb(72, 156, 199);
+    color: #A5D8D8;
+}
+
+#quizForm {
+    margin: 20px auto;
+    width: 100%;
+    background-color:#333;
+    color: #fff;
+    padding: 20px;
+}
+
+#quizForm h2 {
+    font-size: 2rem;
+    text-align: left;
+    margin: 10px 15px;
+    padding: 10px;
+}
+
+#quizDataForm {
+    margin: 20px auto;
+    width: 100%;
+    background-color: rgb(72, 156, 199);
+    color: #000000;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+#quizDataForm label {
+    display: flex;
+    margin: auto;
+}
+
+#quizDataForm input {
+    padding: 10px;
+    width: 30%;
+    margin: 10px auto;
+}
+
+#quizDataForm textarea {
+    padding: 10px;
+    width: 30%;
+    margin: 10px auto;
+}
+
+#quizDataForm button[type="submit"] {
+    background-color: black;
+    font-size: large;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 5px;
+    display: flex;
+    font-style: italic;
+}
+
+#quizDataForm button[type="submit"]:hover {
+    background-color: #4F56DB;
+    color: white;
+    border: 1px solid #fff;
+}
+
+.container {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.container p {
+    font-size: 1.2rem;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgb(72, 156, 199);
+    color: #333;
+    width: 72%;
+    border-radius: 5px;
+}
+
+div img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 100%;
+    transition: transform 0.3s ease;
+    opacity: 0.8;
+    background-color: #4FDBAC;
+    width: 150px;
+}
+
+div img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+div h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.team-member p {
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(72, 156, 199);
+    border-radius: 5px;
+    width: 50%
+}
+
+#container{
+    display: inline-block;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+}
+
+#next-button, #close-button, #restart-button {
+    padding: 10px 20px;
+    background-color: #151523;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+#next-button:hover, #close-button:hover, #restart-button:hover {
+    background-color: #4F56DB;
+    border: 1px solid #333;
+}
+
+#hidden-button {
+    display: none;
+}
+
+#start-button {
+    padding: 10px;
+    margin: 200px auto;
+    display: flex;
+    font-size: 1.5rem;
+    background-color: #151523;
+    color: white;
+    border: black 1px solid;
+}
+
+#start-button:hover {
+    background-color: #4F56DB;
+}
+
+
+/* Laptop View (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 20px 0;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+}
+
+    #welcome p {
+        font-size: 1em;
+        padding: 0 15px;
+    }
+
+    #quiz-button {
+        font-size: 0.9em;
+        padding: 10px 20px;
+    }
+
+
+/* Tablet View (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px 0;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+
+
+    #welcome {
+        padding: 30px 15px;
+    }
+
+    #welcome p {
+        font-size: 0.9em;
+    }
+
+    #quiz-button {
+        font-size: 0.9em;
+        width: 80%;
+    }
+
+
+/* Phone View (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    header {
+        padding: 20px 0;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+
+    #welcome {
+        padding: 20px 10px;
+    }
+
+    #welcome h2 {
+        font-size: 1.5em;
+    }
+
+    #welcome p {
+        font-size: 0.8em;
+    }
+
+    #quiz-button {
+        font-size: 0.8em;
+        padding: 10px 15px;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
